@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "report": {
+    "title": "Synthetic demo journeys",
+    "start_date": "2025-01-01",
+    "end_date": "2025-12-31",
+    "as_of": "2025-12-31",
+    "coverage_note": "Fictional demonstration data. Not a real traveler or travel record."
+  },
+  "legs": [
+    {
+      "id": "demo-1",
+      "traveler_id": "synthetic-traveler",
+      "departure_date": "2025-01-10",
+      "origin": "LHR",
+      "destination": "JFK",
+      "status": "user_confirmed",
+      "airline": "Example Airways",
+      "scheduled_minutes": 480,
+      "duration_basis": "ticket_advertised",
+      "evidence_ids": [
+        "synthetic-1"
+      ],
+      "origin_lat": 51.47,
+      "origin_lon": -0.45,
+      "origin_country": "GB",
+      "destination_lat": 40.64,
+      "destination_lon": -73.78,
+      "destination_country": "US"
+    },
+    {
+      "id": "demo-2",
+      "traveler_id": "synthetic-traveler",
+      "departure_date": "2025-02-10",
+      "origin": "JFK",
+      "destination": "SFO",
+      "status": "user_confirmed",
+      "airline": "Example Airways",
+      "scheduled_minutes": 370,
+      "duration_basis": "ticket_advertised",
+      "evidence_ids": [
+        "synthetic-2"
+      ],
+      "origin_lat": 40.64,
+      "origin_lon": -73.78,
+      "origin_country": "US",
+      "destination_lat": 37.62,
+      "destination_lon": -122.38,
+      "destination_country": "US"
+    },
+    {
+      "id": "demo-3",
+      "traveler_id": "synthetic-traveler",
+      "departure_date": "2025-03-10",
+      "origin": "SFO",
+      "destination": "HND",
+      "status": "user_confirmed",
+      "airline": "Example Airways",
+      "scheduled_minutes": 660,
+      "duration_basis": "ticket_advertised",
+      "evidence_ids": [
+        "synthetic-3"
+      ],
+      "origin_lat": 37.62,
+      "origin_lon": -122.38,
+      "origin_country": "US",
+      "destination_lat": 35.55,
+      "destination_lon": 139.78,
+      "destination_country": "JP"
+    },
+    {
+      "id": "demo-4",
+      "traveler_id": "synthetic-traveler",
+      "departure_date": "2025-04-10",
+      "origin": "HND",
+      "destination": "SIN",
+      "status": "user_confirmed",
+      "airline": "Example Airways",
+      "scheduled_minutes": 430,
+      "duration_basis": "ticket_advertised",
+      "evidence_ids": [
+        "synthetic-4"
+      ],
+      "origin_lat": 35.55,
+      "origin_lon": 139.78,
+      "origin_country": "JP",
+      "destination_lat": 1.36,
+      "destination_lon": 103.99,
+      "destination_country": "SG"
+    },
+    {
+      "id": "demo-5",
+      "traveler_id": "synthetic-traveler",
+      "departure_date": "2025-05-10",
+      "origin": "SIN",
+      "destination": "DXB",
+      "status": "user_confirmed",
+      "airline": "Example Airways",
+      "scheduled_minutes": 440,
+      "duration_basis": "ticket_advertised",
+      "evidence_ids": [
+        "synthetic-5"
+      ],
+      "origin_lat": 1.36,
+      "origin_lon": 103.99,
+      "origin_country": "SG",
+      "destination_lat": 25.25,
+      "destination_lon": 55.36,
+      "destination_country": "AE"
+    },
+    {
+      "id": "demo-6",
+      "traveler_id": "synthetic-traveler",
+      "departure_date": "2025-06-10",
+      "origin": "DXB",
+      "destination": "LHR",
+      "status": "user_confirmed",
+      "airline": "Example Airways",
+      "scheduled_minutes": 450,
+      "duration_basis": "ticket_advertised",
+      "evidence_ids": [
+        "synthetic-6"
+      ],
+      "origin_lat": 25.25,
+      "origin_lon": 55.36,
+      "origin_country": "AE",
+      "destination_lat": 51.47,
+      "destination_lon": -0.45,
+      "destination_country": "GB"
+    }
+  ]
+}

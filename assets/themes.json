@@ -1,0 +1,6 @@
+{
+  "atlas": {"background":"#f1f3ed","paper":"#ffffff","ink":"#142f36","muted":"#516b70","accent":"#007c78","land":"#d9e4db","ocean":"#edf4ef","line":"#d7e1da","heading":"Georgia, serif","eyebrow":"A personal aviation journal"},
+  "midnight": {"background":"#081422","paper":"#102238","ink":"#edf6ff","muted":"#a8bed0","accent":"#80e7d4","land":"#28445d","ocean":"#0c1c2e","line":"#2d4358","heading":"Arial, sans-serif","eyebrow":"Your world, after dark"},
+  "boarding-pass": {"background":"#efe5d1","paper":"#fffaf0","ink":"#3c3026","muted":"#75624e","accent":"#b54926","land":"#e6d4ac","ocean":"#f8f0df","line":"#ddccb0","heading":"Georgia, serif","eyebrow":"Collected journeys · Flight edition"},
+  "executive": {"background":"#f5f6f8","paper":"#ffffff","ink":"#172b46","muted":"#5c6b7a","accent":"#245ac2","land":"#dce3ec","ocean":"#f0f4f9","line":"#dce2ea","heading":"Arial, sans-serif","eyebrow":"Travel activity report"}
+}

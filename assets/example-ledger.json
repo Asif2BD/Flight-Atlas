@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "report": {
+    "title": "A year of routes \u00b7 synthetic example",
+    "start_date": "2025-01-01",
+    "end_date": "2025-12-31",
+    "as_of": "2025-12-31",
+    "coverage_note": "Synthetic demonstration. Two flight records, one documented ground transfer; not a real person\u2019s travel."
+  },
+  "legs": [
+    {
+      "id": "a",
+      "traveler_id": "t",
+      "departure_date": "2025-03-01",
+      "origin": "LAX",
+      "destination": "HND",
+      "status": "flown",
+      "operating_flight": "ZZ1",
+      "airline": "Example Air",
+      "evidence_ids": [
+        "synthetic-a"
+      ],
+      "departure_scheduled": "2025-03-01T10:00:00-08:00",
+      "arrival_scheduled": "2025-03-02T15:00:00+09:00",
+      "origin_lat": 33.94,
+      "origin_lon": -118.4,
+      "destination_lat": 35.55,
+      "destination_lon": 139.78,
+      "origin_country": "US",
+      "destination_country": "JP"
+    },
+    {
+      "id": "b",
+      "traveler_id": "t",
+      "departure_date": "2025-03-10",
+      "origin": "NRT",
+      "destination": "LAX",
+      "status": "user_confirmed",
+      "evidence_ids": [
+        "synthetic-b"
+      ],
+      "scheduled_minutes": 600,
+      "duration_basis": "ticket_advertised",
+      "origin_lat": 35.77,
+      "origin_lon": 140.39,
+      "destination_lat": 33.94,
+      "destination_lon": -118.4,
+      "origin_country": "JP",
+      "destination_country": "US",
+      "airline": "Example Air"
+    }
+  ],
+  "ground_segments": [
+    {
+      "id": "g1",
+      "after_id": "a",
+      "before_id": "b",
+      "from": "HND",
+      "to": "NRT",
+      "status": "documented",
+      "mode": "train",
+      "note": "Synthetic airport transfer"
+    }
+  ]
+}

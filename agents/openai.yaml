@@ -1,0 +1,13 @@
+interface:
+  display_name: Flight Atlas by M Asif Rahman
+  short_description: Turn email itineraries into beautiful flight reports
+  default_prompt: Use $flight-atlas to help me choose an annual, one-time trip, or custom-duration report and a visualization layout and color theme, then build it from my connected email.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
